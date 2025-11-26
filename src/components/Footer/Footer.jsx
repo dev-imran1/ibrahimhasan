@@ -98,7 +98,7 @@ const Footer = () => {
                 <a href="#">
                   <FaInstagram className="text-3xl" />
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=61581190677559">
                   <FaFacebook className="text-3xl" />
                 </a>
                 <a href="#">
@@ -108,11 +108,11 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>59/1 Sultanganj, Rayer Bazar, Mohammadpur,Dhaka</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p>+88 01633-029937</p>
                 </div>
               </div>
             </div>
