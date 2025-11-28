@@ -1,31 +1,32 @@
 import React from "react";
 import Slider from "react-slick";
+import imran from "../Testimonials/imran.jpg"
 
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Ibrahim Hasan",
+    text: "Chairman Insaf Trading",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
+    name: "Imran Hossain",
+    text: "Developed by Imran Hossain, a Full-Stack Developer skilled in Node.js, Express, MongoDB, and React.I create fast, secure, and scalable web applications with clean, modern UI.Passionate about coding, problem-solving, and delivering high-quality digital solutions. Gmail:imran.cit.bd@gmail.com",
+    img: imran,
   },
-  {
-    id: 3,
-    name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
-  },
-  {
-    id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/103/103",
-  },
+  // {
+  //   id: 3,
+  //   name: "Virat Kohli",
+  //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+  //   img: "https://picsum.photos/104/104",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Sachin Tendulkar",
+  //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+  //   img: "https://picsum.photos/103/103",
+  // },
 ];
 
 const Testimonials = () => {
@@ -48,16 +49,16 @@ const Testimonials = () => {
           slidesToScroll: 1,
           infinite: true,
         },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
-      },
-      {
+      // },
+      // {
+      //   breakpoint: 1024,
+      //   settings: {
+      //     slidesToShow: 2,
+      //     slidesToScroll: 1,
+      //     initialSlide: 2,
+      //   },
+      // },
+      // {
         breakpoint: 640,
         settings: {
           slidesToShow: 1,
@@ -102,10 +103,10 @@ const Testimonials = () => {
                   </div>
                   <div className="flex flex-col items-center gap-4">
                     <div className="space-y-3">
-                      <p className="text-xs text-gray-500">{data.text}</p>
-                      <h1 className="text-xl font-bold text-black/80 dark:text-light">
+                      <h1 className="text-xs text-gray-500">{data.text}</h1>
+                      <p className="text-xl font-bold text-black/80 dark:text-light">
                         {data.name}
-                      </h1>
+                      </p>
                     </div>
                   </div>
                   <p className="text-black/20 text-9xl font-serif absolute top-0 right-0">

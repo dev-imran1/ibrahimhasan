@@ -108,7 +108,7 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>59/1 Sultanganj, Rayer Bazar, Mohammadpur,Dhaka</p>
+                  <p>4/53 Sultanganj, Rayer Bazar, Mohammadpur,Dhaka</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
