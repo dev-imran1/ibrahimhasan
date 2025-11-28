@@ -39,14 +39,14 @@ const ProductsData = [
     color: "Yellow",
     aosDelay: "600",
   },
-  {
-    id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
-    rating: 4.5,
-    color: "Pink",
-    aosDelay: "800",
-  },
+  // {
+  //   id: 5,
+  //   img: Img2,
+  //   title: "Fashin T-Shirt",
+  //   rating: 4.5,
+  //   color: "Pink",
+  //   aosDelay: "800",
+  // },
 ];
 
 const Products = () => {

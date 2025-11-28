@@ -9,28 +9,26 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Casual Wear",
+    title: "Caplino Face wash",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Caplino Brightening Turmeric Facial Cleanser 100ml Brighten the skin: it can help brighten the skin, make the skin glow, and even the skin tone.Reduce pores: tighten skin and shrink pores to make the appearance more youthful.Treat acne: help treat and prevent acne. It also contains skin-soothing ingredients that can help heal the skin and reduce acne scars.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Printed shirt",
-    description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Air Freshner",
+    description:"Best Air Fresher in Bangladesh",
   },
   {
     id: 3,
     img: Img3,
-    title: "Women shirt",
-    description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Capilino Serum",
+    description:"Best Serum",
   }, 
     {
     id: 4,
     img: Img4,
-    title: "Women shirt",
+    title: "Body Spray",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
